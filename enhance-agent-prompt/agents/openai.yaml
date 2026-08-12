@@ -1,0 +1,7 @@
+interface:
+  display_name: "Enhance Agent Prompt"
+  short_description: "Turn rough requests into clear agent prompts"
+  default_prompt: "Use $enhance-agent-prompt to turn my draft into a clear, paste-ready prompt for an AI agent."
+
+policy:
+  allow_implicit_invocation: false

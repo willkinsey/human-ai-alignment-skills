@@ -1,0 +1,7 @@
+interface:
+  display_name: "Delegate Bounded Work"
+  short_description: "Delegate bounded work with clear roles and success criteria"
+  default_prompt: "Use $delegate-bounded-work to delegate this task with a complete persona, objective, and success criteria."
+
+policy:
+  allow_implicit_invocation: false

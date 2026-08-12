@@ -1,0 +1,4 @@
+interface:
+  display_name: "Questions for Context Brain Dumps"
+  short_description: "Create open-ended questions for a transcribed context brain dump"
+  default_prompt: "Use $questions-for-context-brain-dumps to give me open-ended questions for a transcribed context brain dump about this topic."
