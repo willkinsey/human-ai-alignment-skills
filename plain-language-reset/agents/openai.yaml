@@ -1,4 +1,0 @@
-interface:
-  display_name: "Plain-Language Reset"
-  short_description: "Re-explain confusing replies in a short, low-friction format."
-  default_prompt: "Use $plain-language-reset to re-explain your last message."
