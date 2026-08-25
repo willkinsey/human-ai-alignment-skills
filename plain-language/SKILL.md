@@ -1,6 +1,6 @@
 ---
 name: plain-language
-description: Write a response or rewrite the previous response in short, plain language. Use when the user asks to simplify, plainly explain, or rewrite a prior reply, or asks to use plain language for the requested output.
+description: Write or rewrite an answer in clear, everyday language without losing material facts, caveats, uncertainty, status, decisions, approval gates, or required actions.
 ---
 
 Write the relevant output in plain language.
@@ -12,8 +12,10 @@ Choose the direction from the user's request:
 
 In either case:
 
-- Give the answer or requested artifact first.
-- Keep the important facts, caveats, and decisions intact.
-- Use short, everyday wording and explain unavoidable technical terms.
-- Use bullets only when they make the result easier to scan.
-- Skip jargon, background, and extra options unless the user asks for them.
+- Give the bottom line or requested artifact first. Put any decision, approval, or required action near the top in a separate `Decision needed:` or `Approval needed:` block; do not bury it in supporting detail.
+- Keep every material fact, caveat, uncertainty, limitation, status, blocker, decision, approval gate, and required action. Shorten wording, not substance.
+- Preserve the difference between `Observed`, `Likely`, `Proposed`, `Approved`, `Blocked`, and `Unknown`, and between completed, proposed, unapproved, and not-done work. Keep explicit no-change, no-send, and no-attachment statements.
+- Never turn a possibility into a confirmed finding, a candidate into a recommendation, or a proposal into completed or approved work. Do not strengthen a recommendation while simplifying it.
+- Use short, everyday wording and explain unavoidable technical terms once.
+- Omit only background or options that cannot affect a decision; keep relevant tradeoffs and alternatives.
+- Use bullets or short headings when they make decisions, caveats, and next steps easier to scan.
