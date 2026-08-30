@@ -10,7 +10,6 @@ These skills help you create shared understanding around the goal, context, stan
 - Simple methods to define goals and constraints
 - Better handoffs between people and AI
 - Practical review steps before acting on AI output
-- [Copy-ready prompts](prompts/) for local coding agents
 
 ## The Goal
 
@@ -23,3 +22,7 @@ Choose a skill that matches the work in front of you, add it to your AI workflow
 ---
 
 Built for professionals who need higher quality AI outputs.
+
+## License and Content Rights
+
+The skills, prompts, code, and written instructions in this repository are available under the [MIT License](LICENSE). Logos, trademarks, photographs, illustrations, templates, PDFs, screenshots, and other visual or media assets are not licensed for reuse unless their folder explicitly says otherwise. See [Content Rights](CONTENT-RIGHTS.md).
