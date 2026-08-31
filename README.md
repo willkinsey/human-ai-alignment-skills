@@ -10,6 +10,7 @@ These skills help you create shared understanding around the goal, context, stan
 - Simple methods to define goals and constraints
 - Better handoffs between people and AI
 - Practical review steps before acting on AI output
+- `git-warm-and-fuzzies` — explains a confusing Git situation and the safe next step before changing anything
 
 ## The Goal
 
@@ -22,3 +23,5 @@ Choose a skill that matches the work in front of you, add it to your AI workflow
 ---
 
 Built for professionals who need higher quality AI outputs.
+
+Released under the [MIT License](LICENSE).
