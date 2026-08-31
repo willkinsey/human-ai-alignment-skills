@@ -1,0 +1,4 @@
+interface:
+  display_name: "Screenshot Feedback"
+  short_description: "Turn visual feedback into focused revisions"
+  default_prompt: "Use $screenshot-feedback to review this visual feedback and prepare a revision packet."

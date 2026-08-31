@@ -10,6 +10,7 @@ These skills help you create shared understanding around the goal, context, stan
 - Simple methods to define goals and constraints
 - Better handoffs between people and AI
 - Practical review steps before acting on AI output
+- `screenshot-feedback` — turn visual feedback into focused, reviewable revisions
 
 ## The Goal
 
