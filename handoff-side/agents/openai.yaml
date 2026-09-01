@@ -1,0 +1,4 @@
+interface:
+  display_name: "Side-Chat Handoff"
+  short_description: "Prepare a compact main-chat context update"
+  default_prompt: "Use $handoff-side to turn this side chat into a compact update for my main task."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Handoff"
+  short_description: "Create a copyable fresh-task handoff"
+  default_prompt: "Use $handoff to prepare this work for a fresh task or session."
