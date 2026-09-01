@@ -19,6 +19,14 @@ When an automation needs notification, include an explicit instruction such as:
 
 Finish and validate the underlying work first, then send one message. A successful job and a successful notification are separate outcomes.
 
+## Required Codex Permission
+
+The helper reads macOS Keychain and makes an outbound HTTPS request. Both can be unavailable inside a restricted Codex sandbox even when the topic is configured and Terminal can send successfully.
+
+In Codex, run the helper with `sandbox_permissions: "require_escalated"` on the first delivery attempt. Use a narrow justification such as: `Allow one explicitly requested ntfy notification using the configured macOS Keychain topic.` This permission applies only to the requested notification and does not expand the calling workflow's authority.
+
+Do not interpret a Keychain or network failure from a non-escalated sandbox run as missing configuration. If a sandboxed call was already blocked before it could publish, retry exactly once with the required permission. If the permitted call fails, stop and report the safe error; do not retry again.
+
 ## Message Guidance
 
 - Use a short title such as `Codex: Daily Brief Complete` or `Codex: Review Needed`.
@@ -38,7 +46,7 @@ Run the bundled `scripts/notify_ntfy.sh` from the installed skill folder with:
 --tags TAGS          Optional comma-separated ntfy tags
 ```
 
-Use one invocation per notification. The helper sends through `https://ntfy.sh`, validates its inputs, and returns a nonzero status when it cannot send. Do not bypass it with an unreviewed URL or a different topic.
+Use one outbound delivery attempt per notification. The helper sends through `https://ntfy.sh`, validates its inputs, and returns a nonzero status when it cannot send. Do not bypass it with an unreviewed URL or a different topic.
 
 ## Failure Handling
 

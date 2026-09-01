@@ -28,6 +28,12 @@ scripts/notify_ntfy.sh \
 
 The script sends one HTTPS request to `https://ntfy.sh`. A successful command is silent; a nonzero exit or a `Notification failed` message means delivery was not confirmed.
 
+## Allow Codex to Reach Keychain and ntfy
+
+A Terminal test can succeed while a Codex task fails inside its restricted sandbox. When Codex invokes the helper, it must request outside-sandbox execution for that command so it can read macOS Keychain and reach `https://ntfy.sh`.
+
+The task should request permission with a narrow explanation such as: `Allow one explicitly requested ntfy notification using the configured macOS Keychain topic.` A sandboxed Keychain or network failure is not proof that setup is missing. Retry such a blocked call once with the required permission, then stop if the permitted call fails.
+
 ## Use in an Automation
 
 Add an explicit instruction such as: `At the end, invoke $ntfy-me once with a concise result.` The skill does not send merely because it is installed.
