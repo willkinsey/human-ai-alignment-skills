@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ntfy Me"
+  short_description: "Send safe Codex job push notifications"
+  default_prompt: "Use $ntfy-me to send a concise ntfy notification for this job."
