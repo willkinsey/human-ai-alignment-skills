@@ -43,8 +43,5 @@ official documentation. Astra observations are not verified Sol findings. The
 task patterns, draft-only boundary, and concise prompting approach are local
 synthesis for this meta-prompting workflow.
 
-The existing enhance-agent-prompt skill remains the general prompt rewriter;
-this skill applies when Sol-specific meta-prompting is requested.
-
 The prompt-cleanup principles are local editing guidance, not an OpenAI
 model-specific rule. The essentials are embedded in the entrypoint.
