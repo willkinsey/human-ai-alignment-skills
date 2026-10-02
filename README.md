@@ -10,6 +10,7 @@ These skills help you create shared understanding around the goal, context, stan
 - Simple methods to define goals and constraints
 - Better handoffs between people and AI
 - [Sol Meta-Prompt](sol-meta-prompt/) — turn rough goals into concise GPT-6.1 Sol prompts, with audit-language cleanup built in
+- [Astra Meta-Prompt](astra-meta-prompt/) — turn rough goals into concise GPT-6 Astra prompts, with audit-language cleanup built in
 - Practical review steps before acting on AI output
 
 ## The Goal
