@@ -1,0 +1,4 @@
+interface:
+  display_name: "Watchdog"
+  short_description: "Monitor a Codex task and stop dangerous drift"
+  default_prompt: "Use $watchdog to monitor the specified Codex task every two minutes until it finishes."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Remove Audit Language"
+  short_description: "Strip unnecessary audit-style caveats"
+  default_prompt: "Use $remove-audit-language to make this output practical and natural."

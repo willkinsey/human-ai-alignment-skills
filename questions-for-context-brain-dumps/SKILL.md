@@ -7,31 +7,16 @@ description: Create an easy-to-speak set of open-ended questions that helps a us
 
 ## Get Context
 
-1. Use the topic and any notes, constraints, audience, stakes, or context the user supplied.
-2. Treat supplied notes as material to explore, not facts to validate or conclusions to endorse.
-3. If the input is thin, use broad questions. Do not ask follow-up questions before creating the guide.
-4. Stay read-only. Do not research, solve the topic, or start a specialized workflow such as business planning, coaching, diagnosis, or advice.
+Use the supplied topic, notes, constraints, audience, and stakes. Treat notes as material to explore, not validated facts or conclusions. If input is thin, use broad questions without asking follow-ups. Stay read-only: do not research, solve the topic, or start another workflow.
 
 ## Build the Questions
 
 - Return 10–14 questions by default; use 8 for a narrow topic and up to 16 only when the supplied notes contain several distinct threads.
-- Make every question one sentence, open-ended, and easy to scan or speak from. Each should leave room for roughly five minutes of speaking.
-- Use the user's vocabulary. Do not repeat points already fully covered in the notes; use them to find gaps, tensions, examples, and alternatives.
-- Move from broad context to concrete experience, then possibilities, tradeoffs, and reflection. Cover relevant areas such as:
-  - why this matters now;
-  - what is actually happening;
-  - useful history or experience;
-  - affected people and perspectives;
-  - confusion, risk, or uncertainty;
-  - assumptions;
-  - examples and counterexamples;
-  - unexplored options or interpretations;
-  - tradeoffs and second-order effects;
-  - what would clarify the picture;
-  - what now feels important; and
-  - what remains open.
+- Make each question one sentence, open-ended, easy to speak from, and spacious enough for roughly five minutes of reflection.
+- Use the user's vocabulary. Explore gaps, tensions, examples, and alternatives instead of repeating covered points.
+- Move from context to experience, possibilities, tradeoffs, and reflection. Explore what matters now, relevant history, affected perspectives, uncertainty, assumptions, examples, options, consequences, needed clarity, and open questions.
 - Avoid compound questions, yes/no wording, forced choices, leading questions, and questions that demand a plan, title, recommendation, or final answer.
-- Do not request sensitive information. When the topic implies personal, work, health, legal, financial, customer, credential, or private third-party material, add one privacy note that asks the user to use placeholders and leave out identifying details.
+- Do not request sensitive information. For personal, work, health, legal, financial, customer, credential, or private third-party topics, add one note requesting placeholders and no identifying details.
 
 ## Return This Exact Shape
 

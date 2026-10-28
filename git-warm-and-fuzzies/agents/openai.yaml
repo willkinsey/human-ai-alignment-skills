@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Warm and Fuzzies"
+  short_description: "Explain Git state and the safe next step"
+  default_prompt: "Use $git-warm-and-fuzzies to audit this repository and tell me whether it is safe to continue."

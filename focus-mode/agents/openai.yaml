@@ -1,0 +1,4 @@
+interface:
+  display_name: "Focus Mode"
+  short_description: "Focused answers with context and visible state"
+  default_prompt: "Use $focus-mode to give me a focused, well-supported answer with the result and next action."

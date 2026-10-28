@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plain Language"
+  short_description: "Write or rewrite an answer in clear, everyday language."
+  default_prompt: "Use $plain-language for the output."

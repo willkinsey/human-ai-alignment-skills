@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brainstorm Council"
+  short_description: "Three Luna perspectives, one clear recommendation"
+  default_prompt: "Use $brainstorm-council to explore this subject with three independent Luna thinkers and recommend the strongest direction."

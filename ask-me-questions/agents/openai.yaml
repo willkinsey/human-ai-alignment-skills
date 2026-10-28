@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ask Me Questions"
+  short_description: "Ask only material questions before proceeding"
+  default_prompt: "Use $ask-me-questions to surface only the material decisions before you proceed."

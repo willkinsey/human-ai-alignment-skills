@@ -1,0 +1,4 @@
+interface:
+  display_name: "Independent Task Review"
+  short_description: "Proportionate review with user-controlled handoffs"
+  default_prompt: "Use $independent-task-review to give task ID <task-id> a proportionate second set of eyes. Return the verdict here; do not message the task unless I approve it."

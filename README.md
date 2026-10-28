@@ -65,6 +65,19 @@ Restart or reload your agent if your tool requires it to discover new skills.
 - [astra-meta-prompt](astra-meta-prompt/): Turn a rough goal into a concise prompt for GPT-6 Astra.
 - [delegate-bounded-work](delegate-bounded-work/): Give a subagent a clear task, scope, and definition of success.
 - [ntfy-me](ntfy-me/): Send one requested job notification to a configured ntfy topic on macOS.
+- [plain-language](plain-language/): Rewrite an answer in clear, everyday language without losing material facts or caveats.
+- [ask-me-questions](ask-me-questions/): Ask up to five tailored, decision-changing questions before proceeding. Renamed from ask-five-questions.
+- [handoff](handoff/): Create a compact, evidence-backed handoff so a fresh session can continue the work.
+- [independent-task-review](independent-task-review/): Get a skeptical second review of another task before or after the work, with a clear verdict.
+- [watchdog](watchdog/): Monitor another task on a heartbeat and stop it if it drifts into unsafe behavior.
+- [brainstorm-council](brainstorm-council/): Brainstorm through three independent subagents, then select or combine the strongest ideas.
+- [use-jev](use-jev/): Route small, well-defined repeated decisions to Jev, with bounded retries and clear fallbacks.
+- [git-warm-and-fuzzies](git-warm-and-fuzzies/): Get a plain-language Git confidence audit of uncommitted work, branches, and worktrees.
+- [check-out-this-skill](check-out-this-skill/): Assess an outside AI skill for usefulness, risk, and fit before installing it.
+- [remove-audit-language](remove-audit-language/): Strip unnecessary audit-style wording and defensive caveats from a draft or plan.
+- [diagram-design-companion](diagram-design-companion/): Turn a diagram idea into a clear, approved brief before rendering.
+- [transcript-cleaner](transcript-cleaner/): Clean raw multi-speaker meeting transcripts without summarizing or changing meaning.
+- [focus-mode](focus-mode/): Shape responses to put the result first, with bounded actions and one clear next step.
 
 ## What You’ll Find Here
 

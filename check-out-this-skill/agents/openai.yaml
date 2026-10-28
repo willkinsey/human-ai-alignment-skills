@@ -1,0 +1,4 @@
+interface:
+  display_name: "Check Out This Skill"
+  short_description: "Review an external AI skill before adopting it"
+  default_prompt: "Use $check-out-this-skill to review this skill safely and tell me whether I should keep, adapt, or skip it."

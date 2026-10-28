@@ -1,0 +1,4 @@
+interface:
+  display_name: "Transcript Cleaner"
+  short_description: "Clean Otter transcripts while preserving meaning and timestamps"
+  default_prompt: "Use $transcript-cleaner to clean this transcript while preserving meaning, speaker headers, and timestamps."
